@@ -1,0 +1,88 @@
+#!/usr/bin/python3.6
+# -*- coding: utf-8 -*-
+# @Time    : 2021/8/12 15:04
+# @Author  : Qiguangnan
+# @File    : __init__.py
+
+# biology
+from .bio_seed_starch_cou import BIO_seed_starch
+from .bio_observe_yeasts_molds_with_microscope_cou import BIO_observe_yeasts_molds
+from .bio_make_leaf_sz_cou import BIO_make_leaf_sz, BIO_make_leaf_yc
+from .bio_explore_peanut_01_cou import BIO_explore_peanut
+#chemistry
+from .chem_allocate_solution_cou import CHEM_allocate_solution
+from .chem_allocate_solution_01_cou import CHEM_allocate_solution_01
+from .chem_allocate_solution_02_cou import CHEM_allocate_solution_02
+from .chem_allocate_solution_03_cou import CHEM_allocate_solution_03
+from .chem_allocate_solution_04_cou import CHEM_allocate_solution_04
+from .chem_allocate_solution_sz_cou import CHEM_allocate_solution_sz
+from .chem_co2_produce_property_01_cou import CHEM_co2_produce_property_01
+from .chem_co2_produce_property_sz_cou import CHEM_co2_produce_property_sz
+from .chem_weight_dissolve_cou import CHEM_weight_dissolve
+from .chem_o2_cou import CHEM_O2
+from .chem_filter_cou import CHEM_filter_cou
+from .chem_explore_combustion_conditions_cou import CHEM_TJRSTJ
+from .chem_acid_base_neutralization_reaction_cou import CHEM_acid_base_neutralization_reaction
+from .chem_evaporation_crystallization_cou import CHEM_evaporation_crystallization
+from .chem_carbonate_inspection_cou import CHEM_carbonate_inspection  # 碳酸盐的检验
+from .chem_metal_active_order_cou import CHEM_metal_active_order  # 金属活动性顺序探究
+from .chem_metal_active_order_02_cou import CHEM_metal_active_order_02  # 金属活动性顺序探究——上海中考
+from .chem_metal_chemical_property_cou import CHEM_metal_chemical_property  # 金属的化学性质
+from .chem_check_Na2CO3_NaCl_cou import CHEM_check_Na2CO3_NaCl
+from .chem_acid_base_check_cou import CHEM_acid_base_check
+from .chem_hcl_h2so4_check_cou import CHEM_hcl_h2so4_check
+from .chem_properties_of_acids_cou import CHEM_properties_of_acids
+from .chem_properties_of_base_cou import CHEM_properties_of_base
+from .chem_separate_phenol_and_check_cou import CHEM_separate_phenol_and_check
+from .chem_nh4_produce_fountain import CHEM_nh4_produce_fountain
+# physical
+from .phy_sring_balance_measurement_cou import PHY_sring_balance_measurement_cou
+from .phy_measure_ammeter_cou import PHY_measure_ammeter
+from .phy_reflex_cou import PHY_light_reflex
+from .phy_electricity_string_merge_cou import PHY_electricity_string_merge
+# from .phy_small_light_test_power_cou import PHY_small_light_test_power
+###from .phy_convex_lens_cou import PHY_convex_lens, PHY_convex_lens_2, PHY_convex_lens_3
+from .phy_convex_lens_cou import PHY_convex_lens_2
+from .phy_two_spring_dynamometer_cou import PHY_spring_dynamometer
+from .phy_measure_density_scale_cou import PHY_measure_density_scale
+from .phy_measure_density_metal_block_01_cou import PHY_measure_density_metal_block_01
+# from .phy_measure_voltage_cou import PHY_measure_voltage
+from .phy_measure_current_voltage_resistance_cou import PHY_measure_current_voltage_resistance
+from .phy_measure_slide_rheostat_01_cou import PHY_measure_slide_rheostat_01
+from .phy_measure_slide_rheostat_02_cou import PHY_measure_slide_rheostat_02
+from .phy_measure_voltage_01_cou import PHY_measure_voltage_01
+from .phy_measure_voltage_02_cou import PHY_measure_voltage_02
+from .phy_conservation_mechanical_energy_cou import PHY_conservation_mechanical_energy_cou
+from .phy_water_pressure_public_cou import PHY_water_pressure_public
+from .phy_induced_current_cou import PHY_induced_current_2
+from .phy_small_light_test_power_public_cou import PHY_small_light_test_power_pubilc
+from .phy_mean_velocity_cou import PHY_mean_velocity
+from .phy_mechanical_efficiency_cou import PHY_mechanical_efficiency
+from .phy_magnitic_field_cou import PHY_magnitic_field
+from .phy_sliding_friction_cou import PHY_sliding_friction
+from .phy_measure_metal_density_cou import PHY_measure_metal_density  # 使用托盘天平测量金属的密度
+from .phy_measure_liquid_density_cou import PHY_measure_liquid_density  # 称量液体的密度————托盘天平————深圳中考
+from .phy_salver_balance_measure_mass_cou import PHY_salver_balance_measure_mass  # 使用托盘天平测量金属的质量
+from .phy_lever_balance_cou import PHY_lever_balance  # 探究杠杆平衡的条件
+from .bio_breathe_CO2_change_cou import BIO_breathe_CO2_change  # 探究呼吸过程中二氧化碳含量的变化
+from .phy_archimedes_principle_cou import PHY_archimedes_principle, PHY_archimedes_rub
+from .phy_measure_A_cou import PHY_measure_A
+from .phy_relationship_M_V_01_cou import PHY_relationship_M_V_01
+from .phy_relationship_M_V_02_cou import PHY_relationship_M_V_02
+from .chem_o2_drug_cou import CHEM_O2_drug
+from .phy_explore_buoyancy_factors_cou import PHY_explore_buoyancy_factors
+from .phy_induced_current_ration_cou import PHY_induced_current_ration
+from .phy_measure_length_time_cou import PHY_measure_length_time  # 用刻度尺测量长度用表测量时间
+from .phy_measure_temperature_cou import PHY_measure_temperature  # 常见温度计测温度
+from .phy_water_boiling_temperature_cou import PHY_water_boiling_temperature  # 探究水沸腾时温度变化的特点
+from .phy_heat_capacity_cou import PHY_heat_capacity  # 测定物质的比热容
+from .phy_plane_mirror_imaging_cou import PHY_plane_mirror_imaging
+from .chem_access_and_heat_beaker_liquid_heat_cou import CHEM_access_and_heat_beaker_liquid_heat  # 试剂的取用与加热之烧杯中液体加热
+from .chem_access_and_heat_tube_liquid_heat_cou import CHEM_access_and_heat_tube_liquid_heat  # 试剂的取用与加热之试管中液体加热
+from .chem_access_and_heat_solid_heat_cou import CHEM_access_and_heat_solid_heat  #  试剂的取用与加热之试管中固体加热
+from .bio_make_observ_yeast_cou import BIO_make_observ_yeast  # 制作观察酵母菌装片
+from .bio_observ_peni_cou import BIO_observ_peni  # 观察青霉永久装片
+from .bio_make_onion_cou import BIO_make_onion
+from .bio_observ_blood_cou import BIO_observ_blood  # 观察人血涂片
+from .bio_identify_foods_for_protein_starch_and_fat_01_cou import BIO_identify_foods  # 鉴定食物中含有蛋白质、淀粉和脂肪
+from .bio_make_kq_cou import BIO_make_kq

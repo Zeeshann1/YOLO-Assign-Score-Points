@@ -1,0 +1,1 @@
+from configg.global_config import *
